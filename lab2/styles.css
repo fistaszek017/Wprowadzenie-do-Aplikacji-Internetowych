@@ -4,6 +4,20 @@
   grid-gap: 1em;
 }
 
+
+.nunito-cos {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /*to mozna zmieniac*/
+  font-style: normal;
+}
+
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1{
     text-align: center;
 }
@@ -25,16 +39,18 @@ header, footer {
 
 /* Demo Specific Styles */
 body {
+  font-family: "Nunito", sans-serif;
   margin: 0 auto;
   /*max-width: 56em;*/
   padding: 1em 0;
+  background-color: #8FABD4;
 }
 
 header{
     position: sticky;
     top: 0;
-    background: #eaeaea;
-    height: 150px;
+    background: #4A70A9;
+    min-height: 150px;
 }
 
 .header-content{
@@ -72,14 +88,32 @@ header{
     text-align: center; /* Opcjonalnie, jeśli tekst ma być wyśrodkowany */
 }
 
-aside,
-article,
-footer {
+aside{
   flex-direction: column;
-  background: #eaeaea;
+  background: #EFECE3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 150px;
+  min-width: 150px;
+}
+
+article{
+  padding: 10px;
+  flex-direction: column;
+  background: #EFECE3;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 150px;
   min-width: 150px;
+}
+
+footer {
+  flex-direction: column;
+  background: #4A70A9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
