@@ -42,7 +42,37 @@
             </aside>
 
             <article>
-                Article
+                    <h4>
+                        Autorem strony jest <strong> Stanisław Ogonowski </strong>.
+                    </h4>
+                    <h4>
+                        <a href="https://github.com/fistaszek017"> Link do Github </a>
+                    </h4>
+                    <h3>
+                        Bądźmy w kontakcie! Napisz wiadomość:
+                    </h3>
+                    <form id="contactForm">
+                        <label for="name">Imię:</label> <br>
+                        <input type="text" name="name" placeholder="Twoje imię" required>
+                        <br>
+                        <label for="email">Email:</label> <br>
+                        <input type="email" name="email" placeholder="Twój email" required>
+                        <br>
+                        <label for="topic">Temat:</label> <br>
+                        <select name="topic" id="topic">
+                            <option value="-">-</option>
+                            <option value="pytanie">Pytanie</option>
+                            <option value="współpraca">Współpraca</option>
+                            <option value="inne">Inne</option>
+                        </select>
+                        <br>
+                        <label for="message">Twoja wiadomość:</label> <br>
+                        <textarea name="message" placeholder="Twoja wiadomość" rows="4" required></textarea>
+                        <br>
+                        <button type="submit">Wyślij</button>
+                    </form>
+                    <div id="komunikat-poz" style="display: none; color: green;"> Dziękujemy za kontakt! </div>
+                    <script src="form.js"></script>
             </article>
 
             <aside class="sidebar-right">

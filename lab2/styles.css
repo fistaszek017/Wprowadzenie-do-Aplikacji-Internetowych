@@ -18,14 +18,6 @@
   font-style: normal;
 }
 
-h1{
-    text-align: center;
-}
-
-h3{
-    text-align: center;
-}
-
 header, footer {
   grid-column: 1 / 4;
 }
@@ -37,11 +29,10 @@ header, footer {
   }
 }
 
-/* Demo Specific Styles */
+/*https://colorhunt.co/palette/efece38fabd44a70a9000000*/
 body {
   font-family: "Nunito", sans-serif;
   margin: 0 auto;
-  /*max-width: 56em;*/
   padding: 1em 0;
   background-color: #8FABD4;
 }
@@ -142,6 +133,15 @@ aside img{
   transition: transform 0.2s ease-in-out;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.gallery video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
 }
 
 .gallery img:hover {
