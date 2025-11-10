@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 150px auto 150px;
+  grid-template-columns: 200px auto 200px;
   grid-gap: 1em;
 }
 
@@ -81,4 +81,5 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 150px;
+  min-width: 150px;
 }
