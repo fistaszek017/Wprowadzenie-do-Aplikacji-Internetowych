@@ -3,16 +3,40 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <meta charset="UTF-8"/>
-        <title> Obiektywne szyny </title>
+        <title> Obiektywne szyny - strona główna </title>
     </head>
     <body>
         <div class="grid">
             <header>
-                Header
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="index.html"> <img src="content/logo.png" alt="Obiektywne szyny"> </a>
+                    </div>
+                    <div class="header-text">
+                        <h1> Witaj na obiektywnych szynach! </h1>
+                        <h6> czyli najlepszym portalu dotyczącym pociągów i pojazdów szynowych - w obiektywie i nie tylko! </h6>
+                    </div>
+                </div>
             </header>
 
             <aside class="sidebar-left">
-                Left Sidebar
+                <nav>
+                    <p>
+                        <h3> Menu strony: </h3>
+                        <ul>
+                            <li> <a href="galeria.html"> Galeria </a> </li>
+                            <li> <a href="kontakt.html"> Kontakt </a> </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h3> Przydatne linki: </h3>
+                        <ul>
+                            <li> <a href="https://psmkms.krakow.pl"> PSMKMS </a> </li>
+                            <li> <a href="https://ztp.krakow.pl/kmk/komunikaty"> Komunikaty ZTP </a> </li>
+                            <li> <a href="https://bocznica.eu/"> Bocznica.eu </a> </li>
+                        </ul>
+                    </p>
+                </nav>
             </aside>
 
             <article>
@@ -20,7 +44,12 @@
             </article>
 
             <aside class="sidebar-right">
-                Right Sidebar
+                <h3> Zdjęcie tygodnia </h3>
+                
+                <!-- zegar -->
+                <h3>Aktualna godzina:</h3>
+                <span id="clock"></span>
+                <script src="clock.js"></script>
             </aside>
             
             <footer>
